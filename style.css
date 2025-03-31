@@ -1,4 +1,24 @@
 nav{
     background-color: #2F303A;
 }
-    
+.Orderaservice{
+    background-color: #2196F3;
+} 
+.Effective_solutions_for_your_business > h1{
+ color: #FFFFFF ;
+}
+.Effective_solutions_for_your_business{
+    background: #000000;
+}
+footer{
+    background: #212121;
+}
+address{
+    color: #757575;
+}
+.mailto > a{
+    color: #ECECEC;
+}
+.telephone > a{
+    color: #F5F4FA;
+}
