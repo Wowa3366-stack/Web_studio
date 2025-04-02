@@ -1,5 +1,5 @@
 nav{
-    background-color: #2F303A;
+    background-color: #FFFFFF;
 }
 .Orderaservice{
     background-color: #2196F3;
@@ -8,7 +8,7 @@ nav{
  color: #FFFFFF ;
 }
 .Effective_solutions_for_your_business{
-    background: #000000;
+    background: #212121;
 }
 footer{
     background: #212121;
@@ -17,8 +17,36 @@ address{
     color: #757575;
 }
 .mailto > a{
-    color: #ECECEC;
+    color: #757575;
 }
 .telephone > a{
-    color: #F5F4FA;
+    color: #757575;
 }
+li{
+    color: #212121;
+}
+p{
+    color: #757575;
+}
+.section_three{
+    background-color: #F5F4FA ;
+}
+h3{
+    color: #212121;
+}
+.studio{
+    color: #2196F3;
+}
+.portfolio{
+    color: #212121;
+}
+.contacts{
+    color: #212121;
+}
+.info_devstudio{
+    color: #2196F3;
+}
+.tel_number{
+    color: #757575;
+}
+
