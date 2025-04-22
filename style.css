@@ -5,11 +5,14 @@
     --alert-text-color: #FFFFFF;
     --background-color: #000000;
     --axent-color: #2196F3;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
 }
 body{
 font-family: var(--font-family);
---font-family: "Roboto", sans-serif;
---second-family: "Raleway", sans-serif;
+background-color: #FFFFFF;
+color:var(--text-color);
+font-size: 14px;
 }
 .header_item{
 font-weight: 500;
@@ -17,13 +20,32 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color: #2196f3;
 }
+.Business{
+background-color: #2F303A;
+}
+.Business{
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.Business_button{
+background-color: #2196F3;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 16px;
+line-height: 187%;
+letter-spacing: 0.06em;
+}
 .details_title{
-
 font-weight: 700;
 font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color:var(--secondary-text-color);
 }
 .details_text{
 font-weight: 400;
@@ -32,7 +54,7 @@ line-height: 171%;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.section_three_title{
+.work_title{
 font-weight: 700;
 font-size: 36px;
 letter-spacing: 0.03em;
@@ -62,28 +84,28 @@ font-size: 26px;
 letter-spacing: 0.03em;
 color: #2196f3;
 }
-.address{
+.footer_address{
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 letter-spacing: 0.03em;
-color: #757575;    
+color: #FFFFFF;    
 }
-.mailto{
+.footer_mailto{
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);    
 }
-.telephone{
+.footer_telephone{
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
-.section_one_title{
+.work_title{
 font-weight: 900;
 font-size: 44px;
 line-height: 136%;
@@ -91,14 +113,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #000000;
 }
-.section_one_button{
-font-weight: 700;
-font-size: 16px;
-line-height: 187%;
-letter-spacing: 0.06em;
-color: #000000;
-}
-.p_link_infodevstudio{
+.p_link_contacts{
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
@@ -109,4 +124,14 @@ font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
+}
+.footer{
+background-color: #2F303A;
+}
+.WEBSTUDIO{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #2196f3;
 }
