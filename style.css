@@ -79,6 +79,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .footer_title{
+font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em;
