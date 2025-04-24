@@ -18,7 +18,10 @@ font-size: 14px;
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
-color: #2196f3;
+color: #212121;
+}
+.header_item:hover{
+color: var(--axent-color);
 }
 .Business{
 background-color: #2F303A;
@@ -114,17 +117,14 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #000000;
 }
-.p_link_contacts{
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: #2196f3;
-}
-.p_link_telephone{
+.p_link_contacts,.p_link_telephone{
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
+}
+.p_link_contacts:hover,.p_link_telephone:hover{
+color: var(--axent-color);
 }
 .footer{
 background-color: #2F303A;
