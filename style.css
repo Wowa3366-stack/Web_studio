@@ -130,7 +130,7 @@ color: var(--axent-color);
 .footer{
 background-color: #2F303A;
 }
-.WEBSTUDIO{
+.webstudio{
 font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
@@ -142,7 +142,7 @@ font-family: var(--font-family);
 background-color: #FFFFFF;
 color:var(--text-color);
 }
-.webtudio{
+.webstudio{
 font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
