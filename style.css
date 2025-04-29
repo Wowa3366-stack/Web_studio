@@ -23,16 +23,16 @@ color: #212121;
 .header_item:hover{
 color: var(--axent-color);
 }
-.hero{
+.hero_webstudio{
 background-color: #2F303A;
+color: #FFFFFF;
 }
-.hero{
+.hero_webstudio{
 font-weight: 900;
 font-size: 44px;
 line-height: 136%;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-text-align: center;
 color: #fff;
 }
 .hero_button{
