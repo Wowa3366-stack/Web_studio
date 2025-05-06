@@ -48,9 +48,8 @@ line-height: 136%;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #fff;
-}
-.hero_webstudio{
-margin-bottom: 0 auto;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 .hero_button{
 background-color: #2196F3;
@@ -62,10 +61,6 @@ margin-bottom: 100px;
 text-align: center;
 line-height: 187%;
 letter-spacing: 0.06em;
-}
-.hero_title{
-padding-bottom: 50px;
-padding-top: 200px;
 }
 .details{
 padding-top: 94px;
