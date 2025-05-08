@@ -18,7 +18,7 @@ font-size: 14px;
 padding-top: 24px;
 padding-bottom: 25px;
 }
-.container {
+.container{
     width: 936px;
     padding: 0px;
     margin: 0 auto;
@@ -39,25 +39,26 @@ color: var(--axent-color);
 }
 .hero_webstudio{
 background-color: #2F303A;
-color: #FFFFFF;
-}
-.hero_webstudio{
-font-weight: 900;
-font-size: 44px;
-line-height: 136%;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #fff;
 padding-top: 200px;
 padding-bottom: 200px;
 }
+.hero_title{
+font-weight: 900;
+font-size: 44px;
+line-height: 136%;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 30px;
+}
 .hero_button{
+display: block;
 background-color: #2196F3;
 color: #FFFFFF;
 font-weight: 700;
 font-size: 16px;
 margin: 0 auto;
-margin-bottom: 100px;
 text-align: center;
 line-height: 187%;
 letter-spacing: 0.06em;
@@ -65,6 +66,10 @@ letter-spacing: 0.06em;
 .details{
 padding-top: 94px;
 padding-bottom: 94px;
+}
+.details_list{
+display: flex;
+gap: 30px;
 }
 .details_title{
 font-weight: 700;
@@ -80,17 +85,26 @@ line-height: 171%;
 letter-spacing: 0.03em;
 color: #757575;
 }
+.work_list{
+gap: 30px;
+display: flex;
+}
 .work_title{
 font-weight: 700;
 font-size: 36px;
 letter-spacing: 0.03em;
 color: #212121;
 }
+.team_list{
+display: flex;
+gap: 30px;
+}
 .team{
 padding-bottom: 94px;
 padding-top: 186px;
 }
 .team_title{
+text-align: center;
 font-weight: 700;
 font-size: 36px;
 padding-top: 94px;
