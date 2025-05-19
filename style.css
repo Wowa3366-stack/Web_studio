@@ -63,6 +63,17 @@ text-align: center;
 line-height: 187%;
 letter-spacing: 0.06em;
 }
+.div_hero{
+margin-bottom: 34px;
+text-align: center;
+gap: 8px;
+}
+.hero-list{
+display: flex;
+gap: 90px;
+flex-wrap: wrap;
+justify-content: space-between;
+}
 .details{
 padding-top: 94px;
 padding-bottom: 94px;
