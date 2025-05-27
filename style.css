@@ -246,6 +246,9 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #000000
 }
+.hero{
+margin-bottom: 94px;
+}
 .button_hero:hover{
 color: var(--axent-color)
 }
