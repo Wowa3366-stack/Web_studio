@@ -38,8 +38,7 @@ margin-right: 93px;
 .header_nav_list{
 display: flex;
 gap: 50px;
-margin-right: 344px;
-margin-right: auto;
+margin-right: auto
 }
 .header_nav{
 display: flex;
@@ -187,7 +186,7 @@ text-align: center;
 color: #212121;
 }
 .p_link_contacts,.p_link_telephone{
-margin-left: 93px;
+margin-left: 94px;
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
