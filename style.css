@@ -245,6 +245,9 @@ letter-spacing: 0.03em;
 text-align: center;
 color: #000000
 }
+.hero_item{
+flex-basis: calc((100% - 30px * 3) / 3);  
+}
 .hero{
 margin-bottom: 94px;
 }
