@@ -255,7 +255,7 @@ border-radius: 8px;
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 .hero_item{
-flex-basis: calc((100% - 30px * 3) / 3);  
+flex-basis: calc((100% - 30px * 2) / 3);  
 }
 .hero{
 margin-bottom: 94px;
