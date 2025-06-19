@@ -45,6 +45,7 @@ margin-right: auto
 .header_nav{
 display: flex;
 align-items: center;
+margin-right: auto;
 }
 .header_item{
 font-weight: 500;
@@ -80,10 +81,13 @@ color: #FFFFFF;
 font-weight: 700;
 font-size: 16px;
 margin: 0 auto;
-text-align: center;
 line-height: 187%;
 letter-spacing: 0.06em;
 border-radius: 4px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 32px;
+padding-right: 32px;
 }
 .hero_button:hover{
 background-color:  #0d5896;
@@ -224,7 +228,7 @@ text-align: center;
 color: #212121;
 }
 .p_link_contacts,.p_link_telephone{
-margin-left: 94px;
+margin-left: 50px;
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
@@ -330,17 +334,20 @@ letter-spacing: 0.03em;
 color: #2196f3;
 }
 .footer{
-background-color: #212121;
+background-color: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .footer_logo{
 color: #fff;;
 }
-.address{
+.footer_address{
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 letter-spacing: 0.03em;
 color: #fff;
+margin-top: 20px;
 }
 .footer_mailto{
  font-weight: 400;
@@ -348,6 +355,8 @@ font-size: 14px;
 line-height: 171%;
  letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+margin-bottom: 9px;
+margin-top: 9px;
 }
 .footer_telephone{
 font-weight: 400;
