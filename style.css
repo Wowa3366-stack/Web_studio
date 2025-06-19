@@ -34,6 +34,9 @@ align-items: center;
 .webstudio{
 margin-right: 93px;
 }
+.header_logo{
+color: #000;
+}
 .header_nav_list{
 display: flex;
 gap: 50px;
@@ -56,6 +59,7 @@ color: var(--axent-color);
 background-image:linear-gradient(to right, rgba(47, 48, 58, 0.29) , rgba(47, 48, 58, 0.29) ), url(./img/team.jpg);
 padding-top: 200px;
 padding-bottom: 200px;
+width: 1500px;
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -102,6 +106,11 @@ padding-bottom: 94px;
 display: flex;
 gap: 30px;
 }
+.details_item{
+
+}
+
+
 .details_title{
 font-weight: 700;
 font-size: 14px;
@@ -300,6 +309,9 @@ color: #2196f3;
 }
 .footer{
 background-color: #212121;
+}
+.footer_logo{
+color: #fff;;
 }
 .address{
 font-weight: 400;
