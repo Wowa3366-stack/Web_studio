@@ -85,6 +85,9 @@ line-height: 187%;
 letter-spacing: 0.06em;
 border-radius: 4px;
 }
+.hero_button:hover{
+background-color:  #0d5896;
+}
 .div_hero{
 margin-bottom: 34px;
 text-align: center;
