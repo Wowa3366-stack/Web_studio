@@ -326,7 +326,7 @@ padding-top: 94px;
 .button_hero:hover{
 background-color: #007BFF; 
 color: #ffffff; 
-outline: none;
+/* outline: none; */
 }
 .div_hero_text{
 padding-left: 15px;
