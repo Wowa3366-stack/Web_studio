@@ -18,6 +18,9 @@ font-size: 14px;
 padding-top: 24px;
 padding-bottom: 25px;
 }
+.header-decor{
+border-bottom: 1px solid #ECECEC;  
+}
 .container{
     width: 1200px;
     padding: 0 15px;
@@ -166,6 +169,7 @@ border-radius: 0 0 4px 4px;
 .team{
 padding-bottom: 94px;
 padding-top: 94px;
+background-color: #F5F4FA;
 }
 .div_team_text{
 padding-top: 30px;
@@ -303,18 +307,23 @@ cursor: pointer;
 border-radius: 8px;
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+.button_hero.current-btn{
+box-shadow: 10px rgba(0, 123, 255, 0.4);
+font-weight: 600;
+}
 .hero_item{
 flex-basis: calc((100% - 30px * 2) / 3);
 }
 .hero_item:hover{
 box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
-.hero{
-margin-bottom: 94px;
+.hero {
+padding-bottom: 94px; 
+padding-top: 94px; 
 }
 .button_hero:hover{
 background-color: #007BFF; 
-color: #ffffff;
+color: #ffffff; 
 outline: none;
 }
 .div_hero_text{
