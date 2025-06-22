@@ -310,7 +310,7 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 .button_hero.current-btn{
 background-color: #007bff;
 color: #ffffff;
-box-shadow: 10px rgba(0, 123, 255, 0.4);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 font-weight: 600;
 }
 .hero_item{
