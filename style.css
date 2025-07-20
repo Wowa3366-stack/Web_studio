@@ -33,7 +33,7 @@ border-bottom: 1px solid #ECECEC;
 .header-flex{
 display: flex;
 align-items: center;
-}
+} 
 .webstudio{
 margin-right: 93px;
 }
@@ -42,18 +42,34 @@ color: #000;
 }
 .header_nav_list{
 display: flex;
+align-items: center;
 gap: 50px;
-margin-right: auto
 }
 .header_nav{
 display: flex;
-align-items: center;
 margin-right: auto;
 }
 .header_item{
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
+}
+.current_item_studio{
+color: #212121;
+}
+.current_item_portfolio{
+color: var(--axent-color);
+}
+.current_item_contacts{
+color: #212121;
+}
+.studio{
+color: var(--axent-color);
+}
+.portfolio{
+color: #212121;
+}
+.contacts{
 color: #212121;
 }
 .header_item:hover{
@@ -93,6 +109,7 @@ padding-right: 32px;
 }
 .hero_button:hover{
 background-color:  #0d5896;
+color: #a39d9d;
 }
 .div_hero{
 margin-bottom: 34px;
@@ -246,16 +263,14 @@ font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.p_link_contacts:hover,.p_link_telephone:hover{
+.p_link_contacts:hover{
+color: var(--axent-color);
+}
+.p_link_telephone:hover{
 color: var(--axent-color);
 }
 .footer{
 background-color: #2F303A;
-}
-body{
-font-family: var(--font-family);
-background-color: #FFFFFF;
-color:var(--text-color);
 }
 .webstudio{
 font-family: var(--second-family);
@@ -264,33 +279,7 @@ font-size: 26px;
 letter-spacing: 0.03em;
 color: #2196f3;
 }
-.header_link{
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: #212121;
-}
-.header_link:hover{
-color: var(--axent-color);
-}
-.p_link_contacts{
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: #757575;
-}
-.p_link_telephone{
-font-weight: 500;
-font-size: 14px;
-letter-spacing: 0.02em;
-color: #757575;
-}
-.p_link_contacts:hover{
-color: var(--axent-color);
-}
-.p_link_telephone:hover{
-color: var(--axent-color);
-}
+
 .button_hero{
 padding-left: 25px;
 padding-right: 25px;
@@ -319,6 +308,11 @@ flex-basis: calc((100% - 30px * 2) / 3);
 .hero_item:hover{
 box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
+.current_item{
+box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+
 .hero {
 padding-bottom: 94px; 
 padding-top: 94px; 
