@@ -78,10 +78,19 @@ body {
 .contacts_list {
   display: flex;
 }
+.link_contacts,
+.link_telephone {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
 .contacts_icon {
   border-radius: 1px;
-  width: 16px;
-  height: 12px;
   fill: #757575;
 }
 .contacts_icon:hover .contacts_item {
@@ -306,14 +315,7 @@ body {
   text-align: center;
   color: #212121;
 }
-.link_contacts,
-.link_telephone {
-  margin-left: 50px;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
+
 .link_contacts:hover {
   color: var(--axent-color);
 }
@@ -432,7 +434,7 @@ body {
 }
 .footer .container {
   display: flex;
-  justify-content: baseline;
+  align-items: baseline;
   gap: 100px;
 }
 .footer {
