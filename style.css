@@ -82,12 +82,18 @@ body {
 .link_telephone {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 10px;
   margin-left: 50px;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #757575;
+}
+  .link_contacts:hover {
+  color: var(--axent-color);
+}
+.link_telephone:hover {
+  color: var(--axent-color);
 }
 .contacts_icon {
   border-radius: 1px;
@@ -316,12 +322,7 @@ body {
   color: #212121;
 }
 
-.link_contacts:hover {
-  color: var(--axent-color);
-}
-.link_telephone:hover {
-  color: var(--axent-color);
-}
+
 .footer {
   background-color: #2f303a;
 }
