@@ -387,9 +387,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer_div">
-          <a href="./index.html" class="webstudio"
-            >Web <span class="footer_logo">Studio</span></a
-          >
+          <a href="./index.html" class="webstudio">Web<span class="footer_logo">Studio</span></a>
           <address class="footer_address">
             м. Київ, пр-т Лесі Українки, 26
           </address>
@@ -449,26 +447,73 @@
             </li>
           </ul>
         </div>
+        <div class="footer_div">
+          <p class="footer_title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+          <form class="footer_form">
+            <label class="footer_label">
+              <input
+                class="footer_input"
+                placeholder="E-mail"
+                type="email"
+                required
+              />
+            </label>
+            <button class="footer_button" type="submit">Підписатися
+          <svg class="telegram_icon" width="24" height="24">
+            <use href="./img/symbol-defs.svg#icon-telegram"></use>
+          </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal_close_button" data-modal-close>Закрити</button>
+        <button class="modal_close_button" data-modal-close>
+          <svg class="icon_close" width="11" height="11">
+            <use href="./img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
         <form class="modal_form">
           <h3 class="modal_title">Залиште свої дані, ми вам передзвонимо</h3>
           <label class="modal_label">
-            <span>Ім'я</span>
-            <input type="text" required />
+            <span class="modal_span">Ім'я</span>
+            <svg class="icon_modal" width="12" height="12">
+              <use href="./img/symbol-defs.svg#icon-human"></use>
+            </svg>
+            <input class="modal_input" type="text" required />
           </label>
           <label class="modal_label">
-            <span>Телефон</span>
-            <input type="number" required />
+            <span class="modal_span">Телефон</span>
+            <svg class="icon_modal" width="14" height="14">
+              <use href="./img/symbol-defs.svg#icon-phone"></use>
+            </svg>
+            <input class="modal_input" type="tel" required />
           </label>
           <label class="modal_label">
-            <span>Пошта</span>
-            <input type="email" required />
+            <span class="modal_span">Пошта</span>
+            <svg class="icon_modal" width="16" height="12">
+              <use href="./img/symbol-defs.svg#icon-post"></use>
+            </svg>
+            <input class="modal_input" type="email" required />
           </label>
-          <textarea class="modal_textarea"> </textarea>
+          <textarea
+            placeholder="Введіть текст"
+            class="modal_textarea"
+          ></textarea>
+          <div class="copy_div">
+            <label class="copy_label">
+              <input class="copy_input" type="checkbox" />
+            </label>
+            <span class="copy_span"
+              >Погоджуюся з розсилкою та приймаю<a
+                class="copy_link"
+                href="./copyright.html"
+                target="_blank"
+                >Умови договору</a
+              ></span
+            >
+          </div>
           <button class="button_label" type="submit">Відправити</button>
         </form>
       </div>
