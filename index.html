@@ -30,7 +30,7 @@
           >
           <ul class="header_nav_list">
             <li class="header_item studio">
-              <a href="./index.html">Студія</a>
+              <a class="header_link current" href="./index.html">Студія</a>
             </li>
             <li class="header_item portfolio">
               <a href="./portfolio.html">Портфоліо</a>
@@ -387,7 +387,9 @@
     <footer class="footer">
       <div class="container">
         <div class="footer_div">
-          <a href="./index.html" class="webstudio">Web<span class="footer_logo">Studio</span></a>
+          <a href="./index.html" class="webstudio"
+            >Web<span class="footer_logo">Studio</span></a
+          >
           <address class="footer_address">
             м. Київ, пр-т Лесі Українки, 26
           </address>
@@ -458,10 +460,11 @@
                 required
               />
             </label>
-            <button class="footer_button" type="submit">Підписатися
-          <svg class="telegram_icon" width="24" height="24">
-            <use href="./img/symbol-defs.svg#icon-telegram"></use>
-          </svg>
+            <button class="footer_button" type="submit">
+              Підписатися
+              <svg class="telegram_icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-telegram"></use>
+              </svg>
             </button>
           </form>
         </div>
@@ -497,10 +500,13 @@
             </svg>
             <input class="modal_input" type="email" required />
           </label>
-          <textarea
-            placeholder="Введіть текст"
-            class="modal_textarea"
-          ></textarea>
+          <label class="modal_label">
+            <span class="modal_span">Коментар</span>
+            <textarea
+              placeholder="Введіть текст"
+              class="modal_textarea"
+              ></textarea>
+          </label>
           <div class="copy_div">
             <label class="copy_label">
               <input class="copy_input" type="checkbox" />

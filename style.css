@@ -54,6 +54,32 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
 }
+.header_link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.header_link.current::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 65px;
+  width: 48px;
+  height: 4px;
+  background-color: var(--axent-color);
+  border-radius: 2px;
+}
+
+.header_link.current_portfolio::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 65px;
+  width: 78px;
+  height: 4px;
+  background-color: var(--axent-color);
+  border-radius: 2px;
+}
 .current_item_studio {
   color: #212121;
 }
@@ -142,16 +168,45 @@ body {
   padding-left: 32px;
   padding-right: 32px;
 }
+.card_thumb {
+  position: relative;
+  overflow: hidden;
+}
+.card_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  opacity: 0;
+  transition: opacity 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_thumb:hover .card_overlay {
+  opacity: 1;
+}
 .hero_button:hover {
   background-color: #0d5896;
   color: #a39d9d;
+}
+.card_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 .div_hero {
   margin-bottom: 34px;
   text-align: center;
   gap: 8px;
 }
-.hero-list {
+.hero_list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -558,12 +613,12 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #2196f3;
 }
-.footer_button:hover{
-background-color: #1462a1;
-color: #a39999;
+.footer_button:hover {
+  background-color: #1462a1;
+  color: #a39999;
 }
 .footer_button:hover .telegram_icon {
-fill: #a39999;
+  fill: #a39999;
 }
 .telegram_icon {
   position: absolute;
@@ -592,7 +647,6 @@ fill: #a39999;
   left: 50%;
   border-radius: 4px;
   width: 528px;
-  height: 581px;
   background-color: white;
   padding: 30px;
   transform: translate(-50%, -50%);
@@ -669,6 +723,7 @@ fill: #a39999;
   height: 120px;
   outline: none;
   padding: 16px 12px;
+  resize: none;
 }
 .modal_textarea:focus-within {
   border-color: #2196f3;
