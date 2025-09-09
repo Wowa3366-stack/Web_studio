@@ -53,6 +53,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_link {
   padding-top: 20px;
@@ -114,6 +115,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link_contacts:hover {
   color: var(--axent-color);
@@ -167,6 +169,8 @@ body {
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .card_thumb {
   position: relative;
@@ -308,6 +312,7 @@ body {
   width: 44px;
   cursor: pointer;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social_item:hover {
   background-color: var(--axent-color);
@@ -321,6 +326,7 @@ body {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team {
@@ -423,6 +429,8 @@ body {
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button_hero.current-btn {
   background-color: #007bff;
@@ -494,6 +502,7 @@ body {
   cursor: pointer;
   width: 170px;
   height: 92px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients_item:hover {
   border-color: #2196f3;
@@ -506,6 +515,7 @@ body {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .container {
   display: flex;
@@ -570,6 +580,7 @@ body {
   cursor: pointer;
   border-radius: 50%;
   background-color: #3f3f46;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_social_item:hover {
   background-color: var(--axent-color);
@@ -582,6 +593,7 @@ body {
   width: 20px;
   height: 20px;
   fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_form {
   display: flex;
@@ -612,6 +624,9 @@ body {
   height: 50px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #2196f3;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_button:hover {
   background-color: #1462a1;
