@@ -205,13 +205,15 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   opacity: 0;
-  transition: opacity 1s ease;
+  transform: translateY(100%);
+  transition: transform 500ms, opacity 500ms;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .card_thumb:hover .card_overlay {
   opacity: 1;
+  transform: translate(0);
 }
 .hero_button:hover {
   background-color: #0d5896;
@@ -683,8 +685,16 @@ body {
   background-color: white;
   padding: 30px;
   transform: translate(-50%, -50%);
+  transform:scale(1) translate(-50%, -50%);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.5);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
 .modal_close_button {
   display: flex;
   justify-content: center;
