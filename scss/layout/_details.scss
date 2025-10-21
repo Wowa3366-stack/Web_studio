@@ -1,46 +1,56 @@
 .details {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.details_list {
-  display: flex;
-  gap: 30px;
-}
-.details_item::before {
-  display: block;
-  content: "";
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.details_item:nth-child(1)::before {
-  background-image: url("../images/antenna.svg");
-}
-.details_item:nth-child(2)::before {
-  background-image: url("../images/clock.svg");
-}
-.details_item:nth-child(3)::before {
-  background-image: url("../images/diagram.svg");
-}
-.details_item:nth-child(4)::before {
-  background-image: url("../images/astronaut.svg");
-}
-.details_title {
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--secondary-text-color);
-  margin-bottom: 10px;
-}
-.details_text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
-  color: #757575;
+
+  &_list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &_item {
+    &::before {
+      display: block;
+      content: "";
+      border-radius: 4px;
+      width: 270px;
+      height: 120px;
+      background-color: #f5f4fa;
+      margin-bottom: 30px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &:nth-child(1)::before {
+      background-image: url("../images/antenna.svg");
+    }
+
+    &:nth-child(2)::before {
+      background-image: url("../images/clock.svg");
+    }
+
+    &:nth-child(3)::before {
+      background-image: url("../images/diagram.svg");
+    }
+
+    &:nth-child(4)::before {
+      background-image: url("../images/astronaut.svg");
+    }
+  }
+
+  &_title {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+    margin-bottom: 10px;
+  }
+
+  &_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
 }
