@@ -14,7 +14,8 @@
   }
 
   &_address {
-    @include styleText(400, 14px);
+    font-weight: 400;
+    font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
     color: #fff;
@@ -22,7 +23,8 @@
   }
 
   &_mailto {
-    @include styleText(400, 14px);
+   font-weight: 400;
+    font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -31,7 +33,8 @@
   }
 
   &_telephone {
-    @include styleText(400, 14px);
+    font-weight: 400;
+    font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
