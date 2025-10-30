@@ -1,7 +1,0 @@
-@mixin styleText($font-weight, $size) {
-  font-weight: $font-weight;
-  font-size: $size;
-}
-@mixin transition($property) {
-  transition: $property 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
