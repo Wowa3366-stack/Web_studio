@@ -59,6 +59,7 @@
 
       .social_icon {
         fill: $alert-text-color;
+        @include styleTransition(fill);
       }
     }
   }
@@ -68,6 +69,7 @@
     width: 20px;
     height: 20px;
     fill: #ffffff;
+    @include styleTransition(fill);
   }
 
   &_form {
@@ -100,6 +102,7 @@
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #2196f3;
+    @include styleTransition(background-color, color);
 
     &:hover {
       background-color: #1462a1;
@@ -107,6 +110,7 @@
 
       .telegram_icon {
         fill: #a39999;
+        @include styleTransition(fill);
       }
     }
   }
