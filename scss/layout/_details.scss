@@ -8,6 +8,8 @@
   }
 
   &_item {
+    position: relative;
+
     &::before {
       display: block;
       content: "";
@@ -18,22 +20,6 @@
       margin-bottom: 30px;
       background-repeat: no-repeat;
       background-position: center;
-    }
-
-    &:nth-child(1)::before {
-      background-image: url("../images/antenna.svg");
-    }
-
-    &:nth-child(2)::before {
-      background-image: url("../images/clock.svg");
-    }
-
-    &:nth-child(3)::before {
-      background-image: url("../images/diagram.svg");
-    }
-
-    &:nth-child(4)::before {
-      background-image: url("../images/astronaut.svg");
     }
   }
 
@@ -53,4 +39,21 @@
     letter-spacing: 0.03em;
     color: #757575;
   }
+}
+
+/* Окремі стилі для псевдоелементів за nth-child — поза вкладеністю */
+.details_item:nth-child(1)::before {
+  background-image: url("../images/antenna.svg");
+}
+
+.details_item:nth-child(2)::before {
+  background-image: url("../images/clock.svg");
+}
+
+.details_item:nth-child(3)::before {
+  background-image: url("../images/diagram.svg");
+}
+
+.details_item:nth-child(4)::before {
+  background-image: url("../images/astronaut.svg");
 }
