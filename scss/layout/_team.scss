@@ -1,0 +1,73 @@
+.social_list {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.social_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+  background-color: $axent-color;
+}
+}
+.social_item:hover .social_icon {
+  fill: $alert-text-color;
+}
+.social_icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: #f5f4fa;
+&_list {
+  display: flex;
+  gap: 30px;
+}
+&_item {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 30px;
+}
+}
+.div_team_text {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  &_p {
+  padding-bottom: 30px;
+  text-align: center;
+}
+}
+.team_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 50px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  &_h3 {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+}
+.team_text {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

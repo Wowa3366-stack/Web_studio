@@ -25,11 +25,19 @@
   display: flex;
 }
 &_title {
+<<<<<<< HEAD
  margin-bottom: 50px;
 //  font-weight: 700;
 //  font-size: 36px;
   @include styleText (700, 36px);
    letter-spacing: 0.03em;
+=======
+  margin-bottom: 50px;
+  // font-weight: 700;
+  // font-size: 36px;
+ @include styleText (700, 14px);
+  letter-spacing: 0.03em;
+>>>>>>> parent of bc8632f (Update)
   text-align: center;
   color: #212121;
 }

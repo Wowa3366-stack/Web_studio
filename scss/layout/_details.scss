@@ -8,8 +8,11 @@
   }
 
   &_item {
+<<<<<<< HEAD
     position: relative;
 
+=======
+>>>>>>> parent of bc8632f (Update)
     &::before {
       display: block;
       content: "";
@@ -21,6 +24,25 @@
       background-repeat: no-repeat;
       background-position: center;
     }
+<<<<<<< HEAD
+=======
+
+    &:nth-child(1)::before {
+      background-image: url("../images/antenna.svg");
+    }
+
+    &:nth-child(2)::before {
+      background-image: url("../images/clock.svg");
+    }
+
+    &:nth-child(3)::before {
+      background-image: url("../images/diagram.svg");
+    }
+
+    &:nth-child(4)::before {
+      background-image: url("../images/astronaut.svg");
+    }
+>>>>>>> parent of bc8632f (Update)
   }
 
   &_title {
@@ -40,6 +62,7 @@
     color: #757575;
   }
 }
+<<<<<<< HEAD
 
 /* Окремі стилі для псевдоелементів за nth-child — поза вкладеністю */
 .details_item:nth-child(1)::before {
@@ -57,3 +80,5 @@
 .details_item:nth-child(4)::before {
   background-image: url("../images/astronaut.svg");
 }
+=======
+>>>>>>> parent of bc8632f (Update)

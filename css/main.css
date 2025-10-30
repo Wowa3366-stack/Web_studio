@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+=======
+:root {
+  --text-color: #757575;
+  --secondary-text-color: #2f303a;
+  --nav-list-color: #212121;
+  --alert-text-color: #ffffff;
+  --background-color: #000000;
+  --axent-color: #2196f3;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+>>>>>>> parent of bc8632f (Update)
 h1,
 h2,
 h3,
@@ -49,6 +63,7 @@ button {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+<<<<<<< HEAD
   border-bottom: 1px solid #ececec;
 }
 .header_flex {
@@ -62,12 +77,39 @@ button {
   display: flex;
   margin-right: auto;
 }
+=======
+}
+
+.header-decor {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+}
+
+.webstudio {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-right: 93px;
+}
+
+.header_logo {
+  color: #000;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .header_nav_list {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
+<<<<<<< HEAD
 .webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -75,6 +117,11 @@ button {
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-right: 93px;
+=======
+.header_nav {
+  display: flex;
+  margin-right: auto;
+>>>>>>> parent of bc8632f (Update)
 }
 
 .header_item {
@@ -83,6 +130,7 @@ button {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
 .header_item:hover {
   color: #2196f3;
 }
@@ -119,10 +167,66 @@ button {
 
 .current_item_studio,
 .current_item_contacts {
+=======
+
+.header_link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.header_link.current::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 65px;
+  width: 48px;
+  height: 4px;
+  background-color: var(--axent-color);
+  border-radius: 2px;
+  transform: scale(1);
+}
+
+.header_link::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 65px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--axent-color);
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(0);
+}
+
+.header_link:hover::after {
+  transform: scale(1);
+}
+
+.header_link:hover {
+  color: var(--axent-color);
+}
+
+.header_link.current_portfolio::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 65px;
+  width: 78px;
+  height: 4px;
+  background-color: var(--axent-color);
+  border-radius: 2px;
+  transform: scale(1);
+}
+
+.current_item_studio {
+>>>>>>> parent of bc8632f (Update)
   color: #212121;
 }
 
 .current_item_portfolio {
+<<<<<<< HEAD
   color: #2196f3;
 }
 
@@ -131,10 +235,28 @@ button {
 }
 
 .portfolio,
+=======
+  color: var(--axent-color);
+}
+
+.current_item_contacts {
+  color: #212121;
+}
+
+.studio {
+  color: var(--axent-color);
+}
+
+.portfolio {
+  color: #212121;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .contacts {
   color: #212121;
 }
 
+<<<<<<< HEAD
 .contacts_list {
   display: flex;
 }
@@ -150,6 +272,15 @@ button {
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+=======
+.header_item:hover {
+  color: var(--axent-color);
+}
+
+.contacts_list {
+  display: flex;
+}
+>>>>>>> parent of bc8632f (Update)
 
 .link_contacts,
 .link_telephone {
@@ -163,9 +294,32 @@ button {
   color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
 .link_contacts:hover,
 .link_telephone:hover {
   color: #2196f3;
+=======
+
+.link_contacts:hover {
+  color: var(--axent-color);
+}
+
+.link_telephone:hover {
+  color: var(--axent-color);
+}
+
+.contacts_icon {
+  border-radius: 1px;
+  fill: #757575;
+}
+
+.contacts_icon:hover .contacts_item {
+  fill: #2196f3;
+}
+
+.contacts_item:hover .contacts_icon {
+  fill: #2196f3;
+>>>>>>> parent of bc8632f (Update)
 }
 
 .hero_webstudio {
@@ -175,7 +329,12 @@ button {
   background-position: center;
   background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 .hero_webstudio_title {
+=======
+
+.hero_title {
+>>>>>>> parent of bc8632f (Update)
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -185,12 +344,18 @@ button {
   color: #fff;
   margin-bottom: 30px;
 }
+<<<<<<< HEAD
 .hero_webstudio:hover {
   background-color: #1976d2;
   color: #e3f2fd;
 }
 
 .hero_button {
+=======
+
+.hero_button {
+  display: block;
+>>>>>>> parent of bc8632f (Update)
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
@@ -199,11 +364,19 @@ button {
   line-height: 187%;
   letter-spacing: 0.06em;
   border-radius: 4px;
+<<<<<<< HEAD
   padding: 10px 32px;
+=======
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+>>>>>>> parent of bc8632f (Update)
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
+<<<<<<< HEAD
   padding: 94px 0;
 }
 .hero_list {
@@ -222,28 +395,84 @@ button {
 .hero_button {
   display: inline-block;
   padding: 6px 25px;
+=======
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.button_hero {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+>>>>>>> parent of bc8632f (Update)
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
   letter-spacing: 0.03em;
   background-color: #ffffff;
   color: #000000;
+<<<<<<< HEAD
   border-radius: 8px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero_button:hover {
+=======
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button_hero.current-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
+
+.button_hero:hover {
+>>>>>>> parent of bc8632f (Update)
   background-color: #007bff;
   color: #ffffff;
   outline: none;
 }
+<<<<<<< HEAD
 .hero_button.current-btn {
   background-color: #007bff;
   color: #ffffff;
   font-weight: 600;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+=======
+
+.hero_item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.hero_item:hover {
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.div_hero_text {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hero_text_h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .hero_text {
   font-weight: 400;
   font-size: 16px;
@@ -251,6 +480,7 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
+<<<<<<< HEAD
 .hero_text_title {
   font-weight: 700;
   font-size: 18px;
@@ -266,21 +496,32 @@ button {
   text-align: center;
   gap: 8px;
 }
+=======
+>>>>>>> parent of bc8632f (Update)
 
 .card_thumb {
   position: relative;
   overflow: hidden;
 }
+<<<<<<< HEAD
 .card_thumb:hover .card_overlay {
   opacity: 1;
   transform: translateY(0);
 }
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .card_overlay {
   position: absolute;
   top: 0;
   left: 0;
+<<<<<<< HEAD
   width: 100%;
   height: 100%;
+=======
+  width: 370px;
+  height: 294px;
+>>>>>>> parent of bc8632f (Update)
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   opacity: 0;
@@ -290,27 +531,70 @@ button {
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 .card_text {
   font-family: "Roboto", sans-serif;
+=======
+
+.card_thumb:hover .card_overlay {
+  opacity: 1;
+  transform: translate(0);
+}
+
+.hero_button:hover {
+  background-color: #0d5896;
+  color: #a39d9d;
+}
+
+.card_text {
+  font-family: var(--font-family);
+>>>>>>> parent of bc8632f (Update)
   font-weight: 400;
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
   color: #fff;
+<<<<<<< HEAD
   text-align: center;
+=======
+}
+
+.div_hero {
+  margin-bottom: 34px;
+  text-align: center;
+  gap: 8px;
+}
+
+.hero_list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.hero_item {
+  width: 370px;
+>>>>>>> parent of bc8632f (Update)
 }
 
 .details {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .details_list {
   display: flex;
   gap: 30px;
 }
+<<<<<<< HEAD
 .details_item {
   position: relative;
 }
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .details_item::before {
   display: block;
   content: "";
@@ -322,6 +606,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
+<<<<<<< HEAD
 .details_title {
   font-weight: 700;
   font-size: 14px;
@@ -339,6 +624,9 @@ button {
 }
 
 /* Окремі стилі для псевдоелементів за nth-child — поза вкладеністю */
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .details_item:nth-child(1)::before {
   background-image: url("../images/antenna.svg");
 }
@@ -355,11 +643,55 @@ button {
   background-image: url("../images/astronaut.svg");
 }
 
+<<<<<<< HEAD
 .work_item {
   position: relative;
 }
 .work_item span {
   font-family: "Roboto", sans-serif;
+=======
+.details_title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+}
+
+.details_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.work_list {
+  gap: 30px;
+  display: flex;
+}
+
+.work_item {
+  position: relative;
+}
+
+.work {
+  padding-bottom: 94px;
+}
+
+.work_title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.work_item span {
+  font-family: var(--font-family);
+>>>>>>> parent of bc8632f (Update)
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -374,6 +706,7 @@ button {
   padding: 20px 0;
 }
 
+<<<<<<< HEAD
 .work {
   padding-bottom: 94px;
 }
@@ -388,6 +721,18 @@ button {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+=======
+.team_list {
+  display: flex;
+  gap: 30px;
+}
+
+.team_item {
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 30px;
+>>>>>>> parent of bc8632f (Update)
 }
 
 .social_list {
@@ -406,12 +751,22 @@ button {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
 .social_item:hover {
   background-color: #2196f3;
 }
 
 .social_item:hover .social_icon {
   fill: #ffffff;
+=======
+
+.social_item:hover {
+  background-color: var(--axent-color);
+}
+
+.social_item:hover .social_icon {
+  fill: var(--alert-text-color);
+>>>>>>> parent of bc8632f (Update)
 }
 
 .social_icon {
@@ -427,6 +782,7 @@ button {
   padding-top: 94px;
   background-color: #f5f4fa;
 }
+<<<<<<< HEAD
 .team_list {
   display: flex;
   gap: 30px;
@@ -437,13 +793,20 @@ button {
   border-radius: 0 0 4px 4px;
   padding-bottom: 30px;
 }
+=======
+>>>>>>> parent of bc8632f (Update)
 
 .div_team_text {
   padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
 }
+<<<<<<< HEAD
 .div_team_text_p {
+=======
+
+.div_team_p {
+>>>>>>> parent of bc8632f (Update)
   padding-bottom: 30px;
   text-align: center;
 }
@@ -456,6 +819,10 @@ button {
   letter-spacing: 0.03em;
   color: #212121;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .team_title_h3 {
   font-weight: 500;
   font-size: 16px;
@@ -470,6 +837,17 @@ button {
   color: #757575;
 }
 
+<<<<<<< HEAD
+=======
+.footer_title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .backdrop {
   width: 100%;
   height: 100%;
@@ -480,18 +858,25 @@ button {
   opacity: 1;
   visibility: visible;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
 
+<<<<<<< HEAD
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.5);
   transition-property: transform;
   transition-duration: 500ms;
 }
 
+=======
+>>>>>>> parent of bc8632f (Update)
 .modal {
   position: absolute;
   top: 50%;
@@ -500,11 +885,16 @@ button {
   width: 528px;
   background-color: white;
   padding: 30px;
+<<<<<<< HEAD
+=======
+  transform: translate(-50%, -50%);
+>>>>>>> parent of bc8632f (Update)
   transform: scale(1) translate(-50%, -50%);
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
 .modal_form {
   display: flex;
   flex-direction: column;
@@ -575,6 +965,13 @@ button {
 .modal_label:focus-within .icon_modal {
   fill: #2196f3;
   outline: none;
+=======
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.5);
+  transition-property: transform;
+  transition-duration: 500ms;
+>>>>>>> parent of bc8632f (Update)
 }
 
 .modal_close_button {
@@ -591,35 +988,150 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+<<<<<<< HEAD
+=======
+.icon_close:hover {
+  fill: var(--axent-color);
+}
+
+>>>>>>> parent of bc8632f (Update)
 .icon_close {
   display: flex;
   fill: #000;
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 .icon_close:hover {
   fill: #2196f3;
 }
 
+=======
+
+.modal_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.modal_title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.modal_label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal_input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 40px;
+  padding-top: 3px;
+  padding-left: 42px;
+  outline: none;
+}
+
+.modal_span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.icon_modal {
+  fill: #212121;
+  position: absolute;
+  left: 14px;
+  top: 38px;
+}
+
+.modal_textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 120px;
+  outline: none;
+  padding: 16px 12px;
+  resize: none;
+}
+
+.modal_textarea:focus-within {
+  border-color: #2196f3;
+}
+
+.modal_textarea:focus-within::placeholder {
+  color: #2196f3;
+}
+
+.modal_textarea::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal_input:focus-within {
+  border-color: #2196f3;
+}
+
+.modal_label:focus-within .icon_modal {
+  fill: #2196f3;
+  outline: none;
+}
+
+/* .modal_label input:not(:placeholder-shown) {
+}
+
+.modal_label input:placeholder-shown {
+} */
+>>>>>>> parent of bc8632f (Update)
 .copy_div {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
+<<<<<<< HEAD
 .copy_div .copy_input {
   display: flex;
 }
 .copy_div_span {
   font-family: "Roboto", sans-serif;
+=======
+
+.copy_input {
+  display: flex;
+}
+
+.copy_span {
+  font-family: var(--font-family);
+>>>>>>> parent of bc8632f (Update)
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #757575;
 }
+<<<<<<< HEAD
 .copy_div_link {
   font-family: "Roboto", sans-serif;
+=======
+
+.copy_link {
+  font-family: var(--font-family);
+>>>>>>> parent of bc8632f (Update)
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
@@ -631,7 +1143,11 @@ button {
 }
 
 .button_label {
+<<<<<<< HEAD
   font-family: "Roboto", sans-serif;
+=======
+  font-family: var(--font-family);
+>>>>>>> parent of bc8632f (Update)
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
@@ -645,6 +1161,10 @@ button {
   background-color: #2196f3;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .button_label:hover {
   background-color: #1c6097;
   color: #af9e9e;
@@ -654,8 +1174,14 @@ button {
   padding-top: 140px;
   padding-bottom: 140px;
 }
+<<<<<<< HEAD
 .clients_title {
   font-family: "Roboto", sans-serif;
+=======
+
+.clients_title {
+  font-family: var(--font-family);
+>>>>>>> parent of bc8632f (Update)
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 50px;
@@ -663,11 +1189,19 @@ button {
   text-align: center;
   color: #212121;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .clients_list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .clients_item {
   display: flex;
   justify-content: center;
@@ -679,12 +1213,15 @@ button {
   height: 92px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
 .clients_icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+=======
+>>>>>>> parent of bc8632f (Update)
 
 .clients_item:hover {
   border-color: #2196f3;
@@ -694,19 +1231,71 @@ button {
   fill: #2196f3;
 }
 
+<<<<<<< HEAD
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+=======
+.clients_icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer_address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer_mailto {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_telephone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .footer .container {
   display: flex;
   align-items: baseline;
   gap: 100px;
 }
+<<<<<<< HEAD
 .footer_logo {
   color: #fff;
 }
+=======
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer_logo {
+  color: #fff;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .footer_address {
   font-weight: 400;
   font-size: 14px;
@@ -715,6 +1304,10 @@ button {
   color: #fff;
   margin-top: 20px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .footer_mailto {
   font-weight: 400;
   font-size: 14px;
@@ -724,6 +1317,10 @@ button {
   margin-bottom: 9px;
   margin-top: 9px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .footer_telephone {
   font-weight: 400;
   font-size: 14px;
@@ -731,11 +1328,31 @@ button {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of bc8632f (Update)
 .footer_social_list {
   display: flex;
   justify-content: center;
   gap: 12px;
 }
+<<<<<<< HEAD
+=======
+
+.footer_title {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .footer_social_item {
   display: flex;
   align-items: center;
@@ -747,21 +1364,43 @@ button {
   background-color: #3f3f46;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+<<<<<<< HEAD
 .footer_social_item:hover {
   background-color: #2196f3;
 }
 .footer_social_item:hover .social_icon {
   fill: #ffffff;
 }
+=======
+
+.footer_social_item:hover {
+  background-color: var(--axent-color);
+}
+
+.footer_social_item:hover .social_icon {
+  fill: var(--alert-text-color);
+}
+
+>>>>>>> parent of bc8632f (Update)
 .footer_social_icon {
   display: flex;
   width: 20px;
   height: 20px;
   fill: #ffffff;
+<<<<<<< HEAD
 }
 .footer_form {
   display: flex;
 }
+=======
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer_form {
+  display: flex;
+}
+
+>>>>>>> parent of bc8632f (Update)
 .footer_input {
   outline: none;
   padding-left: 16px;
@@ -773,9 +1412,16 @@ button {
   background-color: rgba(33, 150, 243, 0);
   margin-right: 12px;
 }
+<<<<<<< HEAD
 .footer_button {
   position: relative;
   font-family: "Roboto", sans-serif;
+=======
+
+.footer_button {
+  position: relative;
+  font-family: var(--font-family);
+>>>>>>> parent of bc8632f (Update)
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
@@ -788,15 +1434,30 @@ button {
   height: 50px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #2196f3;
+<<<<<<< HEAD
 }
+=======
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+>>>>>>> parent of bc8632f (Update)
 .footer_button:hover {
   background-color: #1462a1;
   color: #a39999;
 }
+<<<<<<< HEAD
 .footer_button:hover .telegram_icon {
   fill: #a39999;
 }
 .footer .telegram_icon {
+=======
+
+.footer_button:hover .telegram_icon {
+  fill: #a39999;
+}
+
+.telegram_icon {
+>>>>>>> parent of bc8632f (Update)
   position: absolute;
   right: 28px;
   top: 13px;

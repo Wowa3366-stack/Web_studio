@@ -1,11 +1,13 @@
-@import "./utils/variables";
+@import "./base/reset";
 @import "./utils/mixin";
 @import "./utils/placeholders";
-@import "./base/reset";
-@import "./base/common";
-@import "./componets/container";
+@import "./components/container";
 @import "./layout/header";
+@import "./layout/hero_webstudio";
+@import "./layout/portfolio";
+@import "./layout/details";
+@import "./layout/work";
+@import "./layout/team";
 @import "./layout/modal";
-
-
-
+@import "./layout/clients";
+@import "./layout/footer";

@@ -21,6 +21,7 @@
     margin-bottom: 30px;
   }
 
+<<<<<<< HEAD
  
     &:hover {
       background-color: #1976d2;
@@ -28,6 +29,10 @@
     }
   }
 .hero_button {
+=======
+  &_button {
+    display: block;
+>>>>>>> parent of bc8632f (Update)
     background-color: #2196f3;
     color: #ffffff;
     font-weight: 700;
@@ -39,5 +44,15 @@
     padding: 10px 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+<<<<<<< HEAD
   }
 
+=======
+
+    &:hover {
+      background-color: #1976d2;
+      color: #e3f2fd;
+    }
+  }
+}
+>>>>>>> parent of bc8632f (Update)
